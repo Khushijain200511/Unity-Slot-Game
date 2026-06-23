@@ -1,0 +1,6 @@
+transform.localPosition =
+Vector3.Lerp(
+startPosition,
+endPosition,
+timer
+);
