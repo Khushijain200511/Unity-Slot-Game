@@ -1,27 +1,36 @@
-# Peblo AI Story Buddy
+# Unity Slot Machine Game
 
 ## Overview
-A kid-friendly storytelling app that uses AI-style interaction.
-The app narrates a story using device TTS and presents a dynamic quiz.
+
+A simple slot machine game developed in Unity. The player spins multiple reels and wins when all reels display the same symbol.
 
 ## Features
 
-- Text-to-speech narration
-- Data-driven quiz engine
-- Smooth animations
-- Confetti celebration
-- Error handling
+* Random symbol generation using RNG
+* Smooth reel spinning animation
+* Win detection system
+* Payout calculation
+* Clean object-oriented code structure
 
-## Run Project
+## How To Run
 
-flutter pub get
+1. Open project in Unity.
+2. Open Main Scene.
+3. Press Play.
+4. Click Spin button.
 
-flutter run
+For WebGL:
 
+* Open Build/WebGL/index.html in a browser.
 
-## Approach
+## Bonus Features
 
-Used Provider for state management.
-Quiz UI is generated from JSON data.
-Flutter animations provide smooth feedback.
-The app is optimized for mid-range Android devices.
+* Added special symbols
+* Added sound effects
+* Added jackpot rewards
+
+## Development Approach
+
+The project uses separate classes for reels, symbols, and game management to maintain clean and reusable code.
+
+The reel system uses coroutines for animation and Unity Random functions for fair outcomes.
